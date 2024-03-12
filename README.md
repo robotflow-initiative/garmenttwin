@@ -16,7 +16,13 @@ PostProcessor2.py 搜索主函数输入目录参数下的所有数据集进行�
 
 ## Step4：VR手动标注
 
-使用Unity打开ClothPoseVR工程，在scene场景Manager脚本上输入上面的数据路径DatasetPath，运行场景在VR中进行数据修复和标注，模型数据将保存在每个视频目录下SaveClip***
+1. 使用Unity打开ClothPoseVR工程
+
+2. 从Release下载[Garment3d数据集](https://github.com/robotflow-initiative/garmenttwin/releases/download/Dataset/Resources.zip)，解压后放在工程Assets目录下
+
+3. 在scene场景Manager脚本上输入上面处理后的数据路径DatasetPath
+
+4. 运行场景在VR中进行数据修复和标注，模型数据将保存在每个视频目录下SaveClip***
 
 操作方式见：[说明](./ClothPoseVR/ClothPoseVR.md)
 
